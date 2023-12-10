@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practica_Forms_ZOO</title>
+</head>
+
+<body>
+    <h1>Форма заявки на работу в зоопарке</h1>
+    <p><em>Пожалуйста,заполните форму. Обязательные поля помечены *</em></p>
+    <form action="TestForm.php" metod="get" target="_blank">
+        <fieldset>
+            <legend>
+                <h3>Контактная информация</h3>
+            </legend>
+
+            <label>Имя* <input type="name" name="IM"></label><br>
+
+            <label>Телефон <input type="tel" name="TEL"></label><br>
+
+            <label>Email* <input type="email" name="email"></label><br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>Персональная информация</h3>
+            </legend>
+
+            <label>Возраст* <input type="number" name="Age"></label><br>
+            <label>Пол <select>
+                    <option>Мужчина</option>
+                    <option>Женщина</option>
+                </select> </label><br>
+            <label>Перечислите<br>
+                личные <br>
+                качества <input type="text" height="8" width="8" name="text"></label><br>
+            </label>
+
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
