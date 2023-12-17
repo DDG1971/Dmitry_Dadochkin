@@ -1,0 +1,23 @@
+.body{
+    width: 350px;
+}
+
+
+.t{ 
+    font-weight:bold;
+   list-style-type: upper-roman;
+
+}
+.l{
+    font-weight: lighter;
+   list-style-type: lower-roman;
+}
+
+.kod{
+    width: 400px;
+    background-color: hsl(0deg 0% 0%);
+    color: green;
+    overflow: auto;
+    max-height: 75px;
+}
+
