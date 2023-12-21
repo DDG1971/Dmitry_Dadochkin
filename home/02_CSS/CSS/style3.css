@@ -1,0 +1,47 @@
+.navi{
+    background: hsl(0deg 0% 80%);;
+    width: 15em;
+    height: 16em;
+    float: left;
+    
+}
+.st_1{
+    background:hsl(0deg 0% 66.67%);
+    
+    padding-top: 1px;
+    margin-bottom: 0.2em;
+    
+}
+
+.li{
+    list-style-type: none;
+   
+}
+.st_2{
+    background:hsl(0deg 0% 66.67%);
+  
+ height: 17em;
+ 
+ margin-bottom: .2em;
+ overflow: hidden;
+
+ margin-top: -13px;
+    
+}
+.wrap{
+    background:hsl(0deg 0% 85.88%);
+    /* overflow: hidden;*/
+     margin-bottom: .2em;
+     
+    }
+.footer{
+    background:hsl(0deg 0% 80%);
+    height: auto;
+    overflow: hidden;
+    
+   
+}
+img{
+float: right;
+
+}
